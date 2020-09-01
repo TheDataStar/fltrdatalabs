@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Cookie";
+  background: #00ff0080;
+  padding: 20px;
+  margin: 15px;
+  z-index: 1;
+  opacity: 0.8;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%
+}
+
+.video-coloroverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.6;
+}
